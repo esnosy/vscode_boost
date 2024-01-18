@@ -1,0 +1,119 @@
+{
+  "cmake.configureOnOpen": false,
+  "editor.fontFamily": "'Cascadia Code', Consolas, 'Courier New', monospace",
+  "workbench.tree.indent": 20,
+  "editor.minimap.enabled": false,
+  "editor.inlineSuggest.enabled": true,
+  "[cpp]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools",
+    "editor.suggest.insertMode": "insert"
+  },
+  "[c]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools",
+    "editor.suggest.insertMode": "insert"
+  },
+  "cmake.additionalCompilerSearchDirs": [
+    "C:/msys64/mingw32/bin",
+    "C:/msys64/clang32/bin",
+    "C:/msys64/clang64/bin",
+    "C:/msys64/clangarm64/bin",
+    "C:/msys64/ucrt64/bin"
+  ],
+  "C_Cpp.codeAnalysis.runAutomatically": true,
+  "C_Cpp.codeAnalysis.updateDelay": 500,
+  "editor.rulers": [
+    120
+  ],
+  "terminal.integrated.defaultProfile.linux": "bash",
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "terminal.integrated.inheritEnv": false,
+  "cSpell.userWords": [
+    "Eigen",
+    "framebuffer",
+    "Gamepad",
+    "glfw",
+    "Photoshop",
+    "Voxel",
+    "Voxels"
+  ],
+  "gitlens.views.commits.files.layout": "tree",
+  "liveServer.settings.useLocalIp": true,
+  "[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    // Thanks a ton!: https://stackoverflow.com/a/53839716/8094047
+    "editor.acceptSuggestionOnCommitCharacter": false,
+  },
+  "black-formatter.args": [
+    "--line-length",
+    "121"
+  ],
+  "liveServer.settings.donotShowInfoMsg": true,
+  "customLocalFormatters.formatters": [
+    {
+      // thanku!!! https://github.com/psf/black/issues/431#issuecomment-418043885
+      "command": "black -q -",
+      "languages": [
+        "cython"
+      ]
+    },
+    {
+      "command": "asmfmt",
+      "languages": [
+        "asm-intel-x86-generic"
+      ]
+    },
+    {
+      "command": "clang-format.exe",
+      "languages": [
+        "glsl", "GLSL"
+      ]
+    }
+  ],
+  "window.dialogStyle": "custom",
+  "window.titleBarStyle": "custom",
+  "python.analysis.typeCheckingMode": "standard",
+  "C_Cpp.inlayHints.parameterNames.suppressWhenArgumentContainsName": false,
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "cmake.buildDirectory": "${workspaceFolder}/build_${buildType}_${buildKitHostOs}_${buildKitTargetOs}_${buildKitTargetArch}_${buildKitVendor}_${generator}",
+  "[cmake]": {
+    "editor.defaultFormatter": "josetr.cmake-language-support-vscode"
+  },
+  "python.analysis.autoImportCompletions": false,
+  "cmake.showOptionsMovedNotification": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "python.terminal.executeInFileDir": true,
+  "typst-lsp.exportPdf": "onSave",
+  "cmake.generator": "Ninja",
+  "cmake.ctest.allowParallelJobs": true,
+  "cmake.parallelJobs": 2,
+  "cSpell.enableFiletypes": [
+    "typst"
+  ],
+  "cmake.options.statusBarVisibility": "compact",
+  "cSpell.checkOnlyEnabledFileTypes": false,
+  "zig.path": "",
+  "zig.zls.path": "",
+  "zig.initialSetupDone": true,
+  "zig.zls.enableAutofix": false,
+  "[zig]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": "ziglang.vscode-zig",
+    "files.eol": "\n",
+  },
+  "gitlens.ai.experimental.provider": "openai",
+  "gitlens.ai.experimental.openai.model": "gpt-4-1106-preview",
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
+  "window.commandCenter": false,
+  "cmake.automaticReconfigure": false,
+  "cmake.autoSelectActiveFolder": false,
+  "cmake.clearOutputBeforeBuild": false,
+  "cmake.configureOnEdit": false,
+  "diffEditor.hideUnchangedRegions.enabled": true
+}
