@@ -76,6 +76,7 @@
   "python.analysis.typeCheckingMode": "standard",
   "C_Cpp.inlayHints.parameterNames.suppressWhenArgumentContainsName": false,
   "terminal.integrated.defaultProfile.windows": "PowerShell",
+  // NOTE: A long build directory might cause problems for large projects like Blender due to Windows path limit (even if Windows long paths feature is enabled)
   "cmake.buildDirectory": "${workspaceFolder}/build_${buildType}_${buildKitHostOs}_${buildKitTargetOs}_${buildKitTargetArch}_${buildKitVendor}_${generator}",
   "[cmake]": {
     "editor.defaultFormatter": "josetr.cmake-language-support-vscode"
