@@ -30,13 +30,26 @@
   },
   "terminal.integrated.inheritEnv": false,
   "cSpell.userWords": [
+    "AABB",
+    "ASAN",
+    "Bforartists",
     "Eigen",
     "framebuffer",
+    "fsanitize",
     "Gamepad",
     "glfw",
+    "IMGUI",
+    "INTERPROCEDURAL",
+    "MSVC",
+    "OPENGL",
+    "phong",
     "Photoshop",
+    "struct",
+    "SUPERLUMINAL",
+    "Viewports",
     "Voxel",
-    "Voxels"
+    "Voxels",
+    "Werror"
   ],
   "gitlens.views.commits.files.layout": "tree",
   "liveServer.settings.useLocalIp": true,
@@ -67,7 +80,8 @@
     {
       "command": "clang-format",
       "languages": [
-        "glsl", "GLSL"
+        "glsl",
+        "GLSL"
       ]
     }
   ],
@@ -116,5 +130,14 @@
   "cmake.autoSelectActiveFolder": false,
   "cmake.clearOutputBeforeBuild": false,
   "cmake.configureOnEdit": false,
-  "diffEditor.hideUnchangedRegions.enabled": true
+  "window.zoomLevel": 1,
+  "workbench.editorAssociations": {
+    "*.png": "imagePreview.previewEditor"
+  },
+  "C_Cpp.inlayHints.parameterNames.enabled": true,
+  "C_Cpp.inlayHints.referenceOperator.enabled": true,
+  "C_Cpp.inlayHints.referenceOperator.showSpace": true,
+  "C_Cpp.inlayHints.autoDeclarationTypes.enabled": true,
+  "C_Cpp.inlayHints.autoDeclarationTypes.showOnLeft": true,
+  "diffEditor.hideUnchangedRegions.enabled": true,
 }
