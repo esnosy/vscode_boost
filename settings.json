@@ -134,10 +134,5 @@
   "workbench.editorAssociations": {
     "*.png": "imagePreview.previewEditor"
   },
-  "C_Cpp.inlayHints.parameterNames.enabled": true,
-  "C_Cpp.inlayHints.referenceOperator.enabled": true,
-  "C_Cpp.inlayHints.referenceOperator.showSpace": true,
-  "C_Cpp.inlayHints.autoDeclarationTypes.enabled": true,
-  "C_Cpp.inlayHints.autoDeclarationTypes.showOnLeft": true,
   "diffEditor.hideUnchangedRegions.enabled": true,
 }
