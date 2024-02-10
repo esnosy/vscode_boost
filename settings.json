@@ -135,4 +135,7 @@
     "*.png": "imagePreview.previewEditor"
   },
   "diffEditor.hideUnchangedRegions.enabled": true,
+  "[glsl]": {
+    "editor.defaultFormatter": "xaver.clang-format"
+  },
 }
