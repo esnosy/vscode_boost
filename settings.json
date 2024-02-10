@@ -140,10 +140,6 @@
   "[glsl]": {
     "editor.defaultFormatter": "xaver.clang-format"
   },
-  "cmake.languageSupport.enableFileAPI": true,
   "C_Cpp.intelliSenseUpdateDelay": 500,
   "C_Cpp.refactoring.includeHeader": "ifNeeded",
-  "C_Cpp.intelliSenseEngineFallback": "enabled",
-  "C_Cpp.default.mergeConfigurations": true,
-  "C_Cpp.codeAnalysis.clangTidy.enabled": true,
 }
