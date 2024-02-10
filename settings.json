@@ -5,7 +5,7 @@
   "editor.minimap.enabled": false,
   "editor.inlineSuggest.enabled": true,
   "[cpp]": {
-    "editor.defaultFormatter": "ms-vscode.cpptools",
+    "editor.defaultFormatter": "xaver.clang-format",
     "editor.suggest.insertMode": "insert"
   },
   "[c]": {
