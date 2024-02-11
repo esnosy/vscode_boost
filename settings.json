@@ -93,7 +93,7 @@
   "C_Cpp.inlayHints.parameterNames.suppressWhenArgumentContainsName": false,
   "terminal.integrated.defaultProfile.windows": "PowerShell",
   // NOTE: A long build directory might cause problems for large projects like Blender due to Windows path limit (even if Windows long paths feature is enabled)
-  "cmake.buildDirectory": "${workspaceFolder}/build_${buildType}_${buildKitHostOs}_${buildKitTargetOs}_${buildKitTargetArch}_${buildKitVendor}_${generator}",
+  "cmake.buildDirectory": "${workspaceFolder}/build_${buildType}_${buildKitHostOs}_${buildKitTargetOs}_${buildKitTargetArch}_${buildKitVendor}_${buildKitVersion}_${generator}",
   "[cmake]": {
     "editor.defaultFormatter": "josetr.cmake-language-support-vscode"
   },
@@ -136,10 +136,15 @@
   "workbench.editorAssociations": {
     "*.png": "imagePreview.previewEditor"
   },
-  "diffEditor.hideUnchangedRegions.enabled": true,
   "[glsl]": {
     "editor.defaultFormatter": "xaver.clang-format"
   },
   "C_Cpp.intelliSenseUpdateDelay": 500,
   "C_Cpp.refactoring.includeHeader": "ifNeeded",
+  "diffEditor.hideUnchangedRegions.enabled": true,
+  // Should improve speed, I wish we can exclude git ignored files from workspace scanning, searching etc without hiding it from the VSCode explorer view
+  // but right now this option is inherited by workspace scanning and such, so it should improve speed,
+  // especially for build folders (that should be ignored by git if you add the build folder to .gitignore)
+  "explorer.excludeGitIgnore": true,
+  "files.readonlyFromPermissions": true,
 }
