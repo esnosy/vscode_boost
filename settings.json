@@ -1,6 +1,9 @@
 {
   "cmake.configureOnOpen": false,
-  "editor.fontFamily": "'Cascadia Code', Consolas, 'Courier New', monospace",
+  // "editor.fontFamily": "'Cascadia Code', Consolas, 'Courier New', monospace",
+  "editor.fontFamily": "Inconsolata, Consolas, 'Source Code Pro', 'Liberation Mono', 'Courier New', Courier, monospace",
+  // "editor.fontSize": 20,
+  // "editor.fontWeight": 700,
   "workbench.tree.indent": 20,
   "editor.minimap.enabled": false,
   "editor.inlineSuggest.enabled": true,
@@ -51,7 +54,8 @@
     "Viewports",
     "Voxel",
     "Voxels",
-    "Werror"
+    "Werror",
+    "wireframe"
   ],
   "gitlens.views.commits.files.layout": "tree",
   "liveServer.settings.useLocalIp": true,
@@ -132,7 +136,6 @@
   "cmake.autoSelectActiveFolder": false,
   "cmake.clearOutputBeforeBuild": false,
   "cmake.configureOnEdit": false,
-  "window.zoomLevel": 1,
   "workbench.editorAssociations": {
     "*.png": "imagePreview.previewEditor"
   },
@@ -141,10 +144,11 @@
   },
   "C_Cpp.intelliSenseUpdateDelay": 500,
   "C_Cpp.refactoring.includeHeader": "ifNeeded",
-  "diffEditor.hideUnchangedRegions.enabled": true,
   // Should improve speed, I wish we can exclude git ignored files from workspace scanning, searching etc without hiding it from the VSCode explorer view
   // but right now this option is inherited by workspace scanning and such, so it should improve speed,
   // especially for build folders (that should be ignored by git if you add the build folder to .gitignore)
   "explorer.excludeGitIgnore": true,
   "files.readonlyFromPermissions": true,
+  "svg.preview.mode": "svg",
+  "diffEditor.hideUnchangedRegions.enabled": true,
 }
