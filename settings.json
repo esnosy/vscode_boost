@@ -1,7 +1,7 @@
 {
   "cmake.configureOnOpen": false,
-  // "editor.fontFamily": "'Cascadia Code', Consolas, 'Courier New', monospace",
-  "editor.fontFamily": "Inconsolata, Consolas, 'Source Code Pro', 'Liberation Mono', 'Courier New', Courier, monospace",
+  "editor.fontFamily": "'Cascadia Code', Consolas, 'Courier New', monospace",
+  // "editor.fontFamily": "Inconsolata, Consolas, 'Source Code Pro', 'Liberation Mono', 'Courier New', Courier, monospace",
   // "editor.fontSize": 20,
   // "editor.fontWeight": 700,
   "workbench.tree.indent": 20,
@@ -55,7 +55,8 @@
     "Voxel",
     "Voxels",
     "Werror",
-    "wireframe"
+    "wireframe",
+    "wireframes"
   ],
   "gitlens.views.commits.files.layout": "tree",
   "liveServer.settings.useLocalIp": true,
