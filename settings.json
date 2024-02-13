@@ -144,10 +144,6 @@
   },
   "C_Cpp.intelliSenseUpdateDelay": 500,
   "C_Cpp.refactoring.includeHeader": "ifNeeded",
-  // Should improve speed, I wish we can exclude git ignored files from workspace scanning, searching etc without hiding it from the VSCode explorer view
-  // but right now this option is inherited by workspace scanning and such, so it should improve speed,
-  // especially for build folders (that should be ignored by git if you add the build folder to .gitignore)
-  "explorer.excludeGitIgnore": true,
   "files.readonlyFromPermissions": true,
   "svg.preview.mode": "svg",
   "diffEditor.hideUnchangedRegions.enabled": true,
