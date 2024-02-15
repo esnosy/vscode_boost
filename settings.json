@@ -147,5 +147,6 @@
   "C_Cpp.refactoring.includeHeader": "ifNeeded",
   "files.readonlyFromPermissions": true,
   "svg.preview.mode": "svg",
+  "C_Cpp.inlayHints.parameterNames.enabled": true,
   "diffEditor.hideUnchangedRegions.enabled": true,
 }
